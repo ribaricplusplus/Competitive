@@ -1,0 +1,26 @@
+booster
+roasted
+
+The words differ at some letters
+The word remains the same at some letters
+Will a word that changes some of the constant letters ever appear in the path?
+Each pair of adjacent word has to be a doublet
+Suppose one of the constant letters has to be changed in order to make it possible
+to change some other letter
+
+abcd
+abPQ
+
+Suppose the dictionary is
+{abcd, ebcd, ebcQ, efcQ, efPQ, afPQ, abPQ}
+Get from abcd to abPQ
+abcd
+ebcd
+ebcQ
+efcQ
+efPQ
+afPQ
+abPQ
+There is no other way than changing constant letters.
+
+Construct a graph. Use BFS to find the shortest path.
